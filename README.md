@@ -1,14 +1,14 @@
 # CompBench: A Comparative Reasoning Benchmark for Multimodal LLMs
 
 
-Official dataset and codes for <a href="">CompBench</a>. 
+Official dataset and codes for <a href="https://www.arxiv.org/abs/2407.16837">CompBench</a>. 
 
 ## Benchmark Summary
 
 CompBench is a benchmark designed to evaluate the comparative reasoning capability of multimodal large language models (MLLMs).
 CompBench mines and pairs images through visually oriented questions covering eight dimensions of relative comparison: visual attribute, existence, state, emotion, temporality, spatiality, quantity, and quality. CompBench comprises around 40K image pairs collected from a broad array of visual domains, including animals, fashion, sports, and both outdoor and indoor scenes. The questions are carefully crafted to discern relative characteristics between two images and are labeled by human annotators for accuracy and relevance.
 
-Check our <a href="https://compbench.github.io/">project page</a> and <a href="">paper</a> for key contributions and findings.
+Check our <a href="https://compbench.github.io/">project page</a> and <a href="https://www.arxiv.org/abs/2407.16837">paper</a> for key contributions and findings.
 
 ## Release Process
 - [x] Dataset
@@ -362,13 +362,10 @@ Question: "These are two frames related to `{pair['action']}` in a soccer match.
 ## Citation
 If you find the code and data useful, please cite the following paper:
 ```
-TODO
+@article{kil2024compbench,
+  title={CompBench: A Comparative Reasoning Benchmark for Multimodal LLMs},
+  author={Kil, Jihyung and Mai, Zheda and Lee, Justin and Wang, Zihe and Cheng, Kerrie and Wang, Lemeng and Liu, Ye and Chowdhury, Arpita and Chao, Wei-Lun},
+  journal={arXiv preprint arXiv:2407.16837},
+  year={2024}
+}
 ```
-<!--
-@inproceedings{kil2021revisiting,
-  title={Revisiting Document Representations for Large-Scale Zero-Shot Learning},
-  author={Kil, Jihyung and Chao, Wei-Lun},
-  booktitle={Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-  pages={3117--3128},
-  year={2021}
-}-->
