@@ -1,12 +1,12 @@
-# CompBench: A Comparative Reasoning Benchmark for Multimodal LLMs
+# MLLM-CompBench: A Comparative Reasoning Benchmark for Multimodal LLMs (NeurIPS'25)
 
 
-Official dataset and codes for <a href="https://www.arxiv.org/abs/2407.16837">CompBench</a>. 
+Official dataset and codes for <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/32923dff09f75cf1974c145764a523e2-Abstract-Datasets_and_Benchmarks_Track.html"> MLLM-CompBench</a>. 
 
 ## Benchmark Summary
 
-CompBench is a benchmark designed to evaluate the comparative reasoning capability of multimodal large language models (MLLMs).
-CompBench mines and pairs images through visually oriented questions covering eight dimensions of relative comparison: visual attribute, existence, state, emotion, temporality, spatiality, quantity, and quality. CompBench comprises around 40K image pairs collected from a broad array of visual domains, including animals, fashion, sports, and both outdoor and indoor scenes. The questions are carefully crafted to discern relative characteristics between two images and are labeled by human annotators for accuracy and relevance.
+MLLM-CompBench is a benchmark designed to evaluate the comparative reasoning capability of multimodal large language models (MLLMs).
+MLLM-CompBench mines and pairs images through visually oriented questions covering eight dimensions of relative comparison: visual attribute, existence, state, emotion, temporality, spatiality, quantity, and quality. MLLM-CompBench comprises around 40K image pairs collected from a broad array of visual domains, including animals, fashion, sports, and both outdoor and indoor scenes. The questions are carefully crafted to discern relative characteristics between two images and are labeled by human annotators for accuracy and relevance.
 
 Check our <a href="https://compbench.github.io/">project page</a> and <a href="https://www.arxiv.org/abs/2407.16837">paper</a> for key contributions and findings.
 
@@ -17,7 +17,7 @@ Check our <a href="https://compbench.github.io/">project page</a> and <a href="h
 - [ ] Model evaluation
 
 ## Preparing images
-Images in CompBench are collected from fourteen publicly available datasets.
+Images in MLLM-CompBench are collected from fourteen publicly available datasets.
 
 ### MIT-States
 
@@ -362,10 +362,15 @@ Question: "These are two frames related to `{pair['action']}` in a soccer match.
 ## Citation
 If you find the code and data useful, please cite the following paper:
 ```
-@article{kil2024compbench,
-  title={CompBench: A Comparative Reasoning Benchmark for Multimodal LLMs},
-  author={Kil, Jihyung and Mai, Zheda and Lee, Justin and Wang, Zihe and Cheng, Kerrie and Wang, Lemeng and Liu, Ye and Chowdhury, Arpita and Chao, Wei-Lun},
-  journal={arXiv preprint arXiv:2407.16837},
-  year={2024}
+@inproceedings{NEURIPS2024_32923dff,
+ author = {Kil, Jihyung and Mai, Zheda and Lee, Justin and Chowdhury, Arpita and Wang, Zihe and Cheng, Kerrie and Wang, Lemeng and Liu, Ye and Chao, Wei-Lun},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
+ pages = {28798--28827},
+ publisher = {Curran Associates, Inc.},
+ title = {MLLM-CompBench: A Comparative Reasoning Benchmark for Multimodal LLMs},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/32923dff09f75cf1974c145764a523e2-Paper-Datasets_and_Benchmarks_Track.pdf},
+ volume = {37},
+ year = {2024}
 }
 ```
