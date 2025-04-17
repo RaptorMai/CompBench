@@ -1,20 +1,19 @@
 # MLLM-CompBench: A Comparative Reasoning Benchmark for Multimodal LLMs (NeurIPS'25)
 
+<div align="center">
 
-Official dataset and codes for <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/32923dff09f75cf1974c145764a523e2-Abstract-Datasets_and_Benchmarks_Track.html"> MLLM-CompBench</a>. 
+:book: [Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/32923dff09f75cf1974c145764a523e2-Abstract-Datasets_and_Benchmarks_Track.html) | :clipboard: [Project page](https://compbench.github.io/) | 🗃️ [Data](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/mai_145_buckeyemail_osu_edu/EVqhyAIakNJOpoxfdRRJJpEBe83BUNscCniND7dlBntLwg?e=tVcKkY) | 🗂️ [Annotations](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/mai_145_buckeyemail_osu_edu/EfUoALjaXXZBgggwQPQ8_j0Bgg7DwIsXJWK_3Drup1o_lQ?e=Y0J7Ub)
+
+</div>
 
 ## Benchmark Summary
 
 MLLM-CompBench is a benchmark designed to evaluate the comparative reasoning capability of multimodal large language models (MLLMs).
 MLLM-CompBench mines and pairs images through visually oriented questions covering eight dimensions of relative comparison: visual attribute, existence, state, emotion, temporality, spatiality, quantity, and quality. MLLM-CompBench comprises around 40K image pairs collected from a broad array of visual domains, including animals, fashion, sports, and both outdoor and indoor scenes. The questions are carefully crafted to discern relative characteristics between two images and are labeled by human annotators for accuracy and relevance.
 
-Check our <a href="https://compbench.github.io/">project page</a> and <a href="https://www.arxiv.org/abs/2407.16837">paper</a> for key contributions and findings.
+## Updates 
+- 🔥 **April 17, 2025**: We provide **updated annotations** and **processed data**. The processed data contains 44,683 images for 39.8K image-question pairs in MLLM-CompBench. Feel free to open issues if you have any questions. 
 
-## Release Process
-- [x] Dataset
-  - [x] Preparing images
-  - [x] Preparing question-answer pairs
-- [ ] Model evaluation
 
 ## Preparing images
 Images in MLLM-CompBench are collected from fourteen publicly available datasets.
